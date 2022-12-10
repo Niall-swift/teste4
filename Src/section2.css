@@ -78,7 +78,7 @@ p,h1,h3,h4,span{
  }
 
 
- @media screen and (min-width: 370px){
+ @media screen and (min-width: 720px){
   .section__2{
     display: grid;
     grid-template-columns: 100%;
