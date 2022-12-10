@@ -1,0 +1,172 @@
+
+
+:root{
+    --font-2p: start2p;
+    --cor-texto1: #ffffff;
+    --cor-texto2: #ea9cf0;
+}
+
+.section__1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(https://cutewallpaper.org/21/anime-gif-wallpaper-1920x1080/wg-WallpapersGeneral-Thread-7073716.gif) center/cover;
+}
+.apresenta__texto{
+    padding-top: 15rem;
+    margin-left: 5rem;
+}
+.apresenta__texto h3{
+    color: var(--cor-texto1);
+    font-size: 30px;
+    font-family: var(--font-2p);
+
+}
+.apresenta__texto h3:nth-child(2){
+    color: black;
+    font-family: var(--font-2p);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    animation: texto 2.75s ease infinite;
+    position:static;
+   
+}
+.apresenta__texto h4{
+    color: var(--cor-texto1);
+    font-family: var(--font-2p);
+    font-size: 30px;
+   
+
+}
+
+.redes{
+    display: block;
+    font-family: 'start2p';
+    margin-top: 6rem;
+    font-size: 1.5rem;
+}
+.redes a{
+    color: black;
+    text-decoration: none;
+    animation: texto 3000.75ms ease infinite;
+}
+.redes i{
+    font-size: 2rem;
+}
+
+
+@keyframes texto {
+    0%{
+        color: black;
+
+    }
+    10%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+
+    }
+    15%{
+        color: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+    }
+    20%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+
+    }
+    25%{
+       color: black;
+
+    }
+    30%
+    {
+        color: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+
+    }
+    35%{
+        color: black;
+
+    }
+    40%{
+        color: black;
+
+    }
+    45%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 15px rgb(4, 213, 255));
+        
+    }
+    50%{
+        olor: aqua;
+        filter: drop-shadow(0px 1px 8px aqua);
+
+    }
+    55%{
+        color: black;
+        
+    }
+    60%{
+        olor: aqua;
+        filter: drop-shadow(0px 1px 15px aqua);
+    }
+    65%{
+        color: black;
+    }
+    70%{
+        color: rgb(4, 213, 255);
+        filter: drop-shadow(0px 1px 8px rgb(4, 213, 255));
+
+    }
+    75%{
+        color: black;
+    }
+    80%{
+       color: black;
+
+    }
+    85%{
+        color: black;
+        
+    }
+    90%{
+        color: black;
+       
+
+    }
+    95%{
+        
+    }
+    100%{
+        
+    }
+}
+
+
+@keyframes barra {
+    0%{
+        opacity: 100%;
+    }
+    20%{
+        opacity: 0%;
+
+    } 
+    40%{
+        opacity: 100%;
+
+    }
+    60%{
+        opacity: 0%;
+
+    }
+    80%{
+        opacity: 100%;
+
+    }
+    100%{
+        opacity: 0%;
+
+    }
+}

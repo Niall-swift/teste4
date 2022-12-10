@@ -1,0 +1,23 @@
+.navmobile{
+    position: fixed;
+    display: flex;
+    border: 1px solid #52525279;
+    padding: 1.75rem 2rem;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.658);
+    backdrop-filter: saturate(450%) blur(30px);
+    -webkit-backdrop-filter: saturate(450%) blur(30px);
+}
+.navmobile a{
+    color: #ffffff;
+    font-size: 1.75rem;
+}
+.menu__mobile{
+    margin-right: 15px;
+    display: flex;
+}
+.menu__mobile i{
+    padding: auto;
+    margin-left: 3rem;
+}
